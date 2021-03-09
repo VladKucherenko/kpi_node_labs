@@ -1,0 +1,12 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "Lab2 made by Vlad Kucherenko",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad Kucherenko <vladkycherenko98@gmail.com>",
+  "license": "ISC"
+}

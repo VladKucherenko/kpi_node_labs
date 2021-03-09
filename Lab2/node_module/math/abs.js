@@ -1,0 +1,1 @@
+export const abs = (number) => number < 0 ? number * -1 : number;

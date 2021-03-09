@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src='script.js'></script>
+    
+    <title>lab1 v-1</title>
+</head>
+
+<body>
+    <div style="text-align: center;"><h2>Lab 1</h2></div>
+    
+    <div>
+        <div>
+            <h3>
+                Task 3
+            </h3>
+        </div>
+        <div>
+            Введите n этажей - 
+            <input id='house_input' type="text">
+        </div>
+        <div>
+            Введите n квартиры - 
+            <input id='house_number_input' type="text">
+        </div>
+        
+        <button onclick="chooseRoom()">Get</button>
+        <div>
+            Alert - <span id='house_answer'></span>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>
+                Task 4
+            </h3>
+        </div>
+        <div>
+            Введите n - 
+            <input id='n_number_input' type="text">
+        </div>
+        <div>
+            Введите m - 
+            <input id='m_number_input' type="text">
+        </div>
+        <button onclick="arrayOfMatrix()">Get</button>
+        <div>
+            Положительные значения - <span id='positive_answer'></span>
+        </div>
+        <div>
+            Отрицательные значения - <span id='negative_answer'></span>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>
+                Task 5
+            </h3>
+        </div>
+        <div>
+            Выберите номер группы - 
+            <select class="form-select" id='group_input' aria-label="Default select example">
+                <option selected>Click to choose</option>
+                <option value="ik-91">IK-91</option>
+                <option value="ik-92">IK-92</option>
+              </select>
+        </div>
+        <div>
+            Выберите день недели - 
+            <select class='form-select' id="date_input" aria-label="Default select example">
+                <option selected>Click to choose</option>
+                <option value="monday">monday</option>
+                <option value="tuesday">tuesday</option>
+                <option value="wednesday">wednesday</option>
+                <option value="thursday">thursday</option>
+                <option value="friday">friday</option>
+                
+              </select>
+        </div>
+        <button onclick="getLessons()">Get</button>
+        <div>
+            <ol id='group_lessons'></ol>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>
+                Task 6
+            </h3>
+        </div>
+        <div>
+            a - 
+            <input id='a_number_input' type="text">
+            <span id='choosedOperations'></span>
+            b - 
+            <input id='b_number_input' type="text">
+             = 
+            <span id='output'></span>
+        </div>
+        <div>
+            <button id='plus' onclick="MathOperationFlow('plus')">+</button>
+            <button id='minus' onclick="MathOperationFlow('minus')">-</button>
+            <button id='multiply' onclick="MathOperationFlow('multiply')">*</button>
+            <button id='division' onclick="MathOperationFlow('division')">/</button>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h3>
+                Task 7
+            </h3>
+        </div>
+        <div>
+            Name -
+            <input id='name_tov_input' type="text">
+        </div>
+        <div>
+            Price - 
+            <input id='price_tov_input' type="text">
+        </div>
+        <div>
+            Num - 
+            <input id='number_tov_input' type="text">
+        </div>
+        <div>
+            <button onclick="productFlow('create')">Add new product</button>
+        </div>
+        <div>
+            <button onclick="productFlow('show')">Show all products</button>
+        </div>
+        <table class="table">
+            <thead id='table_head'>
+            </thead>
+            <tbody id='table_body'>
+             <tr id='total_total'>
+                 
+             </tr>
+            </tbody>
+          </table>
+    </div>
+    <div>
+        <div>
+            <h3>
+                Task 8
+            </h3>
+        </div>
+        <div>
+            <div>
+                N - 
+                <input id='matrix_input' type="text">
+            </div>
+
+            <div>
+                <button onclick="getmatrix('Get-1')">Get-1</button>
+                <button onclick="getmatrix('Get-2')">Get-2</button>
+                <button onclick="getmatrix('Get-3')">Get-3</button>
+                <button onclick="getmatrix('Get-4')">Get-4</button>
+            </div>
+        </div>
+        <div id="matrix_answer">
+
+        </div>
+    </div>
+</body>
+</html>
